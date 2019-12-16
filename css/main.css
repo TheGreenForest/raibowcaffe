@@ -1,0 +1,189 @@
+/*Resset.css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Resset.css*/
+
+.flex{
+    display: flex;
+}
+.s-between{
+    justify-content: space-between;
+}
+.w100{
+    width: 100%;
+}
+
+
+.up-menu {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    background-color: #000000;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.logo-image{
+    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+}
+.logo-text{
+    margin-top: 20px;
+}
+.logo-text .logo-text-main{
+    font-size: 25px;
+}
+.logo-text .logo-text-discription{
+    font-size: 10px;
+}
+.delivery{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+.nav-menu>li{
+    padding: 0px 10px;
+    text-transform: uppercase;
+    
+}
+.nav-menu>li a{
+    text-decoration: none;
+    color: #e68e35;
+    font-weight: bold;
+    transition: 0.3s;
+    padding-bottom: 10px;
+    
+}
+.nav-menu>li a:hover{
+    color: #e65035;
+    border-bottom: 2px solid #e68e35;
+    
+}
+.header-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-phone>p{
+    font-size: 20px;
+}
+
+.hello-container {
+    position: relative;
+    height: 400px;
+    background: url(/image/header/piz.jpg) no-repeat 100%;
+    background-size: 100%;
+    color: #fff;
+    
+}
+.hello-container:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+.hello-content{
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.hello-content>h1{
+    font-size: 100px;
+}
+
+.hello-content>p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.footer{
+    margin-top: 40px;
+    height: 300px;
+    background-color: #000;
+}
+.footer-nav{
+    margin-top: 20px;
+    
+}
+.footer-nav>li{
+    margin: 20px 10px;
+}
+.footer-nav>li>a{
+    color: #fff;
+}
+.copy{
+    text-align: center;
+    color: #454545
+}
