@@ -39,7 +39,7 @@
                 <input type="email" placeholder="Ваш E-mail">
                 <input type="phone" placeholder="Ваш телефон">
                 <p>Ваше сообщение:</p>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="" id="" cols="10" rows="10"></textarea>
                 <button>Отправить</button>
             </form>
             </div>
