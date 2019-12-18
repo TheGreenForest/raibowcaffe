@@ -15,7 +15,10 @@
                         <li><a href="/index.php">Главная</a></li>
                         <li><a href="/about.php">О нас</a></li>
                         <li><a href="/contact.php">Контакты</a></li>
-                        <li><a href="/menu.php">Меню</a></li>
+                        <div class="menu-item">
+                            <li><a href="/menu.php">Меню</a></li>
+                            
+                        </div>
                         <li><a href="/cart.php">Корзина</a></li>
                     </ul>
                 </div>
