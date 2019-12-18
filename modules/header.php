@@ -15,13 +15,30 @@
                         <li><a href="/index.php">Главная</a></li>
                         <li><a href="/about.php">О нас</a></li>
                         <li><a href="/contact.php">Контакты</a></li>
-                        <div class="menu-item">
-                            <li><a href="/menu.php">Меню</a></li>
-                            
-                        </div>
+                        <li><a href="/menu.php"><div class="dropdown">
+                            <a class="dropbtn">Меню</a>
+  <div class="dropdown-content">
+    <a href="#">Пицца</a>
+    <a href="#">Суши</a>
+    <a href="#">Роллы</a>
+    <a href="#">Ролексы</a>
+    <a href="#">Продам гараж</a>
+  </div>
+</div> </a></li>
+                        
+                        
+                        
+                         
+                        
                         <li><a href="/cart.php">Корзина</a></li>
                     </ul>
                 </div>
+                
+
+
+
+
+
                 <div class="header-phone">
                     <p>+7 (495) 429-88-88</p>
                     <p>+7 (966) 099-48-48</p>

@@ -1,60 +1,151 @@
 /*Resset.css*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
     box-sizing: border-box;
 }
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 html {
-	height: 100%;
+    height: 100%;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
     font-family: 'Source Sans Pro', sans-serif;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 /*Resset.css*/
 
-.flex{
+.flex {
     display: flex;
 }
-.s-between{
+
+.s-between {
     justify-content: space-between;
 }
-.w100{
+
+.w100 {
     width: 100%;
 }
 
@@ -67,26 +158,31 @@ table {
     background-color: #000000;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     color: #fff;
 }
-.logo-image{
+
+.logo-image {
     margin-right: 15px;
     height: 50px;
     width: 50px;
 }
-.logo-text{
+
+.logo-text {
     margin-top: 20px;
 }
-.logo-text .logo-text-main{
+
+.logo-text .logo-text-main {
     font-size: 25px;
 }
-.logo-text .logo-text-discription{
+
+.logo-text .logo-text-discription {
     font-size: 10px;
 }
-.delivery{
+
+.delivery {
     display: flex;
     text-align: center;
     align-content: center;
@@ -97,30 +193,44 @@ table {
     display: flex;
     align-items: center;
 }
-.nav-menu>li{
+
+.nav-menu > li {
     padding: 0px 10px;
     text-transform: uppercase;
-    
+
 }
-.nav-menu>li a{
+
+.nav-menu > li > a {
     text-decoration: none;
     color: #e68e35;
     font-weight: bold;
     transition: 0.3s;
     padding-bottom: 10px;
-    
+
 }
-.nav-menu>li a:hover{
+
+.nav-menu > li > div {
+    text-decoration: none;
+    color: #e68e35;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.nav-menu > li > a:hover {
     color: #e65035;
     border-bottom: 2px solid #e68e35;
-    
+
 }
-.header-phone{
+
+.header-phone {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.header-phone>p{
+
+.header-phone > p {
     font-size: 20px;
 }
 
@@ -130,9 +240,10 @@ table {
     background: url(/image/header/piz.jpg) no-repeat 100%;
     background-size: 100%;
     color: #fff;
-    
+
 }
-.hello-container:after{
+
+.hello-container:after {
     content: '';
     position: absolute;
     top: 0;
@@ -143,7 +254,8 @@ table {
     opacity: 0.6;
     z-index: 1;
 }
-.hello-content{
+
+.hello-content {
     height: 100%;
     width: 100%;
     display: inline-flex;
@@ -154,11 +266,12 @@ table {
     flex-direction: column;
     margin-bottom: 40px;
 }
-.hello-content>h1{
+
+.hello-content > h1 {
     font-size: 100px;
 }
 
-.hello-content>p{
+.hello-content > p {
     margin-top: 20px;
     font-size: 20px;
 }
@@ -168,22 +281,86 @@ table {
 
 
 
-.footer{
+.footer {
     margin-top: 40px;
     height: 300px;
     background-color: #000;
 }
-.footer-nav{
+
+.footer-nav {
     margin-top: 20px;
-    
+
 }
-.footer-nav>li{
+
+.footer-nav > li {
     margin: 20px 10px;
 }
-.footer-nav>li>a{
+
+.footer-nav > li > a {
     color: #fff;
 }
-.copy{
+
+.copy {
     text-align: center;
     color: #454545
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #000;
+    color: #e68e35;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+
+}
+
+/* Dropdown Content*/
+.dropdown-content {
+    display: none;
+    padding: 10px 0px;
+    border: 2px solid #e68e35;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #e68e35;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    border-bottom: 1px solid #e68e35;
+    border-top: 1px solid #e68e35;
+    color: #e65035;
+    transition: 0.1s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #000;
 }
