@@ -58,11 +58,11 @@
         <div class="container">
             <div class="slider multiple-items">
                 <div><img src="image/about/cafe1.jpg" alt=""></div>
-                <div><img src="image/about/cafe1.jpg" alt=""></div>
-                <div><img src="image/about/cafe1.jpg" alt=""></div>
-                <div><img src="image/about/cafe1.jpg" alt=""></div>
-                <div><img src="image/about/cafe1.jpg" alt=""></div>
-                <div><img src="image/about/cafe1.jpg" alt=""></div>
+                <div><img src="image/about/cafe2.jpg" alt=""></div>
+                <div><img src="image/about/cafe3.jpg" alt=""></div>
+                <div><img src="image/about/cafe4.jpg" alt=""></div>
+                <div><img src="image/about/cafe5.jpg" alt=""></div>
+                <div><img src="image/about/cafe6.jpg" alt=""></div>
             </div>
         </div>
 
@@ -76,7 +76,9 @@
         $('.multiple-items').slick({
             infinite: true,
             slidesToShow: 3,
-            slidesToScroll: 3
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000
         });
 
     </script>
