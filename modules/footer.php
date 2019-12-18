@@ -21,12 +21,10 @@
                    <ul type="none" class="footer-nav flex">
                         <li><a href="">ВК</a></li>
                         <li><a href="">Феисбук</a></li>
-                        <li><a href="">Писюн</a></li>
                    </ul>
                    <ul type="none" class="footer-nav flex">
                         <li><a href="">ВК</a></li>
                         <li><a href="">Феисбук</a></li>
-                        <li><a href="">Писюн</a></li>
                    </ul>
                </div>
            </div>
