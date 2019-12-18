@@ -27,3 +27,11 @@
     background-position: center;
     background-size: 100%;
 }
+.slider img{
+    text-align: center;
+    max-height: 200px;
+    margin: auto;
+}
+.slick-prev:before, .slick-next:before{
+    color: #656565;
+}
