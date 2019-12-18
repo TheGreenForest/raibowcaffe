@@ -345,6 +345,8 @@ table {
     text-decoration: none;
     display: block;
     font-weight: 500;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
     
 
 }
@@ -355,7 +357,7 @@ table {
     border-bottom: 1px solid #e68e35;
     border-top: 1px solid #e68e35;
     color: #e65035;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 /* Show the dropdown menu on hover */
