@@ -30,6 +30,7 @@ input{
 }
 
 textarea{
+    border-radius: 3px;
     padding: 5px;
     outline: none;
     border: 1px solid #ffcb57;
