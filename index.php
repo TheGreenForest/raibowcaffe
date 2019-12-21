@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -13,21 +13,16 @@
 <body>
     <?php require ('modules/header.php');?>
     <div class="hello-container">
-            <div class="hello-content">
-                <h1>Кафе Радуга</h1>
-                <p>"Хорошее блюдо - это блюдо из свежих продуктов. Каждое блюдо требует свою порцию любви".</p>
-            </div>
-
+        <div class="hello-content">
+            <h1>Кафе Радуга</h1>
+            <p>"Хорошее блюдо - это блюдо из свежих продуктов. Каждое блюдо требует свою порцию любви".</p>
         </div>
-    <div class="content">
-        
-        
-        
-        
-        
-        
+
     </div>
-     <?php require ('modules/footer.php');?>
+    <div class="content">
+
+    </div>
+    <?php require ('modules/footer.php');?>
 </body>
 
 </html>

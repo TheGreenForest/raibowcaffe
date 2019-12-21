@@ -1,3 +1,46 @@
-.content{
+.content {
     min-height: 500px;
+}
+
+.hello-container {
+    position: relative;
+    height: 400px;
+    background: url(/image/header/piz.jpg) no-repeat 100%;
+    background-size: 100%;
+    color: #fff;
+
+}
+
+
+.hello-container:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.hello-content {
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.hello-content > h1 {
+    font-size: 100px;
+}
+
+.hello-content > p {
+    margin-top: 20px;
+    font-size: 20px;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,6 @@
 <body>
 
     <?php require ('modules/header.php');?>
-
     <div class="content">
         <div class="top-container">
             <div class="container flex">

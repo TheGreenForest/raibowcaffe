@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -23,33 +23,31 @@
                     <p>Кафе Радуга располагается в 10 минутах пешком от метро Ясенево. Наш адрес: г. Москва ул. Вильнюсская д.5 <br> <br></p>
                 </div>
                 <div class="right-container ">
-                   <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7fe9e7fe2624409507051151143ec132e730ca236277d44bc9547f16e21ae250&amp;source=constructor" width="925" height="401" frameborder="0"></iframe>
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7fe9e7fe2624409507051151143ec132e730ca236277d44bc9547f16e21ae250&amp;source=constructor" width="925" height="401" frameborder="0"></iframe>
                 </div>
-                
-
             </div>
             <div class="container">
-               <div class="feedback">
-                   
-               
-                <h2>Оставьте свой отзыв: </h2>
-            
-            <form action="">
-                <input type="text" placeholder="Ваше имя">
-                <input type="email" placeholder="Ваш E-mail">
-                <input type="phone" placeholder="Ваш телефон">
-                <p>Ваше сообщение:</p>
-                <textarea name="" id="" cols="10" rows="10"></textarea>
-                <button>Отправить</button>
-            </form>
-            </div>
+                <div class="feedback">
+
+
+                    <h2>Оставьте свой отзыв: </h2>
+
+                    <form action="">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="email" placeholder="Ваш E-mail">
+                        <input type="phone" placeholder="Ваш телефон">
+                        <p>Ваше сообщение:</p>
+                        <textarea name="" id="" cols="10" rows="10"></textarea>
+                        <button>Отправить</button>
+                    </form>
+                </div>
             </div>
         </div>
 
 
 
 
-    
+
     </div>
     <?php require ('modules/footer.php');?>
 </body>
