@@ -16,7 +16,6 @@
 
 .article {
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .item-card {
