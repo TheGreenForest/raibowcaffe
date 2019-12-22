@@ -22,17 +22,17 @@
                         <div class="dropdown">
                             <a href="/menu.php" class="dropbtn">Меню</a>
                             <div class="dropdown-content">
-                                <a href="#">Пицца</a>
-                                <a href="#">Суши</a>
-                                <a href="#">Горячие<br> блюда</a>
-                                <a href="#">Шашлык</a>
-                                <a href="#">Паста</a>
-                                <a href="#">Гарниры</a>
-                                <a href="#">Супы</a>
-                                <a href="#">Холодные блюда</a>
-                                <a href="#">Салаты</a>
-                                <a href="#">Выпечка</a>
-                                <a href="#">Десерты</a>
+                                <a href="/menu.php#pizza">Пицца</a>
+                                <a href="/menu.php#sushi">Суши</a>
+                                <a href="/menu.php#hot">Горячие<br> блюда</a>
+                                <a href="/menu.php#shashlik">Шашлык</a>
+                                <a href="/menu.php#pasta">Паста</a>
+                                <a href="/menu.php#garnir">Гарниры</a>
+                                <a href="/menu.php#soup">Супы</a>
+                                <a href="/menu.php#cold">Холодные блюда</a>
+                                <a href="/menu.php#salati">Салаты</a>
+                                <a href="/menu.php#vipechka">Выпечка</a>
+                                <a href="/menu.php#dessert">Десерты</a>
                             </div>
                         </div>
                     </li>

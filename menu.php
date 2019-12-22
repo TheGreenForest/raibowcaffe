@@ -15,7 +15,7 @@
     <div class="content">
 
         <div class="container">
-            <h1>Пицца</h1>
+            <h1><a name="pizza"></a>Пицца</h1>
             <div class="article flex">
 
                 <div class="item-wrapper col-md-4">
@@ -35,31 +35,31 @@
 
 
 
-            <h1>Суши</h1>
+            <h1><a name="sushi"></a>Суши</h1>
             <div class="article flex">
 
             </div>
-            <h1>Горячие блюда</h1>
+            <h1><a name="hot"></a>Горячие блюда</h1>
             <div class="article flex">
 
             </div>
-            <h1>Шашлык</h1>
+            <h1><a name="shashlik"></a>Шашлык</h1>
             <div class="article flex">
 
             </div>
-            <h1>Паста</h1>
+            <h1><a name="pasta"></a>Паста</h1>
             <div class="article flex">
 
             </div>
-            <h1>Гарниры</h1>
+            <h1><a name="garnir"></a>Гарниры</h1>
             <div class="article flex">
 
             </div>
-            <h1>Супы</h1>
+            <h1><a name="soup"></a>Супы</h1>
             <div class="article flex">
 
             </div>
-            <h1>Холодные блюда</h1>
+            <h1><a name="cold"></a>Холодные блюда</h1>
             <div class="article flex">
                 <div class="item-wrapper col-md-4">
                     <div class="item-card ">
@@ -72,85 +72,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="item-wrapper col-md-4">
-                    <div class="item-card ">
-                        <img src="/image/menu/cold/solenya.jpg" alt="">
-                        <h2>Соленья"</h2>
-                        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
-                        <div class="buy flex">
-                            <p>400 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-wrapper col-md-4">
-                    <div class="item-card ">
-                        <img src="/image/menu/cold/solenya.jpg" alt="">
-                        <h2>Соленья"</h2>
-                        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
-                        <div class="buy flex">
-                            <p>400 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-wrapper col-md-4">
-                    <div class="item-card ">
-                        <img src="/image/menu/cold/solenya.jpg" alt="">
-                        <h2>Соленья"</h2>
-                        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
-                        <div class="buy flex">
-                            <p>400 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-wrapper col-md-4">
-                    <div class="item-card ">
-                        <img src="/image/menu/cold/solenya.jpg" alt="">
-                        <h2>Соленья"</h2>
-                        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
-                        <div class="buy flex">
-                            <p>400 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-wrapper col-md-4">
-                    <div class="item-card ">
-                        <img src="/image/menu/cold/solenya.jpg" alt="">
-                        <h2>Соленья"</h2>
-                        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
-                        <div class="buy flex">
-                            <p>400 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart">В корзину</button>
-                        </div>
-                    </div>
-                </div><div class="item-wrapper col-md-4">
-    <div class="item-card ">
-        <img src="/image/menu/cold/solenya.jpg" alt="">
-        <h2>Соленья"</h2>
-        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
-        <div class="buy flex">
-            <p>400 <span style="font-size: 25px;">₽</span></p>
-            <button class="add-cart">В корзину</button>
-        </div>
-    </div>
-</div>
+
             </div>
-            <h1>Салаты</h1>
+
+            <h1><a name="salati"></a>Салаты</h1>
             <div class="article flex">
 
             </div>
-            <h1>Выпечка</h1>
+            <h1><a name="vipechka"></a>Выпечка</h1>
             <div class="article flex">
 
             </div>
-            <h1>Десерты</h1>
+            <h1><a name="dessert"></a>Десерты</h1>
             <div class="article flex">
 
             </div>
         </div>
+
     </div>
     <?php require ('modules/footer.php');?>
 </body>
