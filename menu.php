@@ -63,7 +63,7 @@
             <div class="article flex">
                 <div class="item-wrapper col-md-4">
                     <div class="item-card ">
-                        <img src="/image/menu/cold/sol.jpg" alt="">
+                        <img src="/image/menu/cold/solenya.jpg" alt="">
                         <h2>Соленья"</h2>
                         <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
                         <div class="buy flex">
@@ -72,6 +72,71 @@
                         </div>
                     </div>
                 </div>
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/cold/solenya.jpg" alt="">
+                        <h2>Соленья"</h2>
+                        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
+                        <div class="buy flex">
+                            <p>400 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/cold/solenya.jpg" alt="">
+                        <h2>Соленья"</h2>
+                        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
+                        <div class="buy flex">
+                            <p>400 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/cold/solenya.jpg" alt="">
+                        <h2>Соленья"</h2>
+                        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
+                        <div class="buy flex">
+                            <p>400 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/cold/solenya.jpg" alt="">
+                        <h2>Соленья"</h2>
+                        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
+                        <div class="buy flex">
+                            <p>400 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/cold/solenya.jpg" alt="">
+                        <h2>Соленья"</h2>
+                        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
+                        <div class="buy flex">
+                            <p>400 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div><div class="item-wrapper col-md-4">
+    <div class="item-card ">
+        <img src="/image/menu/cold/solenya.jpg" alt="">
+        <h2>Соленья"</h2>
+        <p>Квашенная капуста, огурцы маринованные, чеснок маринованный, помидоры маринованные</p>
+        <div class="buy flex">
+            <p>400 <span style="font-size: 25px;">₽</span></p>
+            <button class="add-cart">В корзину</button>
+        </div>
+    </div>
+</div>
             </div>
             <h1>Салаты</h1>
             <div class="article flex">
