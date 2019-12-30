@@ -1,5 +1,11 @@
 <div class="header">
-    <div class="up-menu">
+    <div class="up-menu"> <a name="top"></a>
+        <a href="#top" class="up">
+            <div class="inner-up">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+        </a>
         <div class="container flex s-between ">
             <a href="index.php">
                 <div class="logo">
@@ -10,6 +16,7 @@
                     </div>
                 </div>
             </a>
+
             <div class="delivery">
                 <p>При заказе от <span style="font-size:25px">500</span> рублей <br> доставка бесплатно</p>
             </div>
@@ -18,7 +25,7 @@
                     <li><a href="/index.php">Главная</a></li>
                     <li><a href="/about.php">О нас</a></li>
                     <li><a href="/contact.php">Контакты</a></li>
-                    <li>
+                    <li style="padding-right:0;">
                         <div class="dropdown">
                             <a href="/menu.php" class="dropbtn">Меню</a>
                             <div class="dropdown-content">
@@ -36,8 +43,12 @@
                             </div>
                         </div>
                     </li>
-                    <li><a href="/cart.php">Корзина</a></li>
                 </ul>
+            </div>
+            <div class="open-cart" id="open">
+                <div class="cart-container flex">
+                    <img src="/image/logo/cart.svg" alt="" class="open-cart"> <span class="count"></span>
+                </div>
             </div>
             <div class="header-phone">
                 <p>+7 (495) 429-88-88</p>

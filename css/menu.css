@@ -14,9 +14,7 @@
 
 }
 
-.article {
-    flex-wrap: wrap;
-}
+.article {}
 
 .item-card {
     margin-top: 20px;

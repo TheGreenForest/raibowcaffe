@@ -156,6 +156,50 @@ a:hover {
 
 /*global CSS*/
 /*Header*/
+.up {
+    z-index: 10;
+    display: flex;
+    background-color: #292929;
+    top: 80%;
+    left: 30px;
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    display: none;
+}
+
+.inner-up {
+    position: relative;
+}
+
+.left {
+    position: inherit;
+    right: -7px;
+    top: 35px;
+    transform: rotate(-45deg);
+    background-color: #fff;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px
+}
+
+.right {
+    position: inherit;
+    top: 30px;
+    right: -33px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+
+}
+
+.hiden {
+    display: block;
+}
+
 .up-menu {
     color: #fff;
     display: flex;
@@ -238,6 +282,29 @@ a:hover {
 
 .header-phone > p {
     font-size: 20px;
+}
+
+.open-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30px;
+    cursor: pointer;
+    align-content: flex-start;
+}
+
+.cart-container {
+    color: #e68e35;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.cart-container:hover {
+    transition: 0.3s;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 /* Dropdown Button */
