@@ -16,29 +16,42 @@
     <div class="content">
 
         <div class="container">
-            <h1><a name="pizza"></a>Пицца</h1>
+            <h1><a name="pizza"></a>Пицца 32см</h1>
             <div class="article flex">
 
                 <div class="item-wrapper col-md-4">
                     <div class="item-card ">
-                        <img src="/image/menu/pizza/tunec.jpg" alt="">
-                        <h2>Пицца "Тунец"</h2>
-                        <p>Сырок, тунец, тесто там есть. Вооооот. Оч вкусно... наверное=)</p>
+                        <img src="/image/menu/pizza/margarita.jpg" alt="" style="
+    justify-content: flex-start;">
+                        <h2>Маргарита</h2>
+                        <p>Специальный соус, сыр Моцарелла, помидоры</p>
                         <div class="buy flex">
                             <p>440 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart" data-id="1" data-title="Пицца с тунцом" data-price="440">В корзину</button>
+                            <button class="add-cart" data-id="1" data-title="Пицца Маргарита" data-price="440">В корзину</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="item-wrapper col-md-4">
                     <div class="item-card ">
-                        <img src="/image/menu/pizza/tunec.jpg" alt="">
-                        <h2>Пицца "Тунец"</h2>
-                        <p>Сырок, тунец, тесто там есть. Вооооот. Оч вкусно... наверное=)</p>
+                        <img src="/image/menu/pizza/fiesta.jpg" alt="">
+                        <h2>Фиеста</h2>
+                        <p>Соус, сыр Моцарелла, ветчина, бекон</p>
                         <div class="buy flex">
-                            <p>400 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart" data-id="2" data-title="Пицца не с тунцом" data-price="400">В корзину</button>
+                            <p>520 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="2" data-title="Пицца Фиеста" data-price="520">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/pizza/gribnaya.jpg" alt="">
+                        <h2>Грибная</h2>
+                        <p>Спец. соус, сыр Моцарелла, шампиньоны, зелень</p>
+                        <div class="buy flex">
+                            <p>520 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="3" data-title="Пицца Грибная" data-price="520">В корзину</button>
                         </div>
                     </div>
                 </div>
@@ -48,6 +61,10 @@
 
 
 
+            <h1>Пицца 38см</h1>
+            <div class="article flex">
+
+            </div>
             <h1><a name="sushi"></a>Суши</h1>
             <div class="article flex">
 
@@ -103,32 +120,7 @@
         </div>
 
     </div>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="js/jqcart.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            'use strict';
-            // инициализация плагина
-            $.jqCart({
-                buttons: '.add-cart', // селектор кнопок, аля "Добавить в корзину"
-                handler: '/php/handler.php', // путь к обработчику
-                visibleLabel: false, // показывать/скрывать ярлык при пустой корзине (по умолчанию: false)
-                openByAdding: false, // автоматически открывать корзину при добавлении товара (по умолчанию: false)
-                currency: '₽', // валюта: строковое значение, мнемоники (по умолчанию "$")
-                cartLabel: '.count'
-                /* селектор элемента, где будет размещен ярлык, 
-                                                        он же - "кнопка" для открытия корзины */
-            });
 
-        });
-        $('#open').click(function() {
-            $.jqCart('openCart'); // открыть корзину
-        });
-        $('#clear').click(function() {
-            $.jqCart('clearCart'); // очистить корзину
-        });
-
-    </script>
     <?php require ('modules/footer.php');?>
 </body>
 

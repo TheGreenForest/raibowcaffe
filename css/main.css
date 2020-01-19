@@ -200,6 +200,18 @@ a:hover {
     display: block;
 }
 
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    transition: 0.3s;
+}
+
+.fix-container {
+    margin-top: 175px;
+}
+
 .up-menu {
     color: #fff;
     display: flex;

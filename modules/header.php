@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header ">
     <div class="up-menu"> <a name="top"></a>
         <a href="#top" class="up">
             <div class="inner-up">
@@ -45,11 +45,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="open-cart" id="open">
-                <div class="cart-container flex">
-                    <img src="/image/logo/cart.svg" alt="" class="open-cart"> <span class="count"></span>
-                </div>
-            </div>
+            <?php
+                if($_SERVER['REQUEST_URI'] == "/menu.php")
+                echo '<div class="open-cart" id="open">
+                    <div class="cart-container flex">
+                        <img src="/image/logo/cart.svg" alt="" class="open-cart"> <span class="count"></span>
+                    </div>
+                </div>';
+            ?>
             <div class="header-phone">
                 <p>+7 (495) 429-88-88</p>
                 <p>+7 (966) 099-48-48</p>
