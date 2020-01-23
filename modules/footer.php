@@ -72,22 +72,22 @@
 
 </script>
 <script type="text/javascript">
-    $(window).scroll(function() {
-        var scrolled = $(this).scrollTop();
-        //        if (scrolled >= 107) {
-        //            $('.up').addClass('hiden');
-        //
-        //        }
-        //        if (scrolled <= 107) {
-        //            $('.up').removeClass('hiden');
-        //        }
-        if (scrolled >= 110) {
-            $('.header').addClass('fixed');
-
-        }
-        if (scrolled <= 110) {
-            $('.header').removeClass('fixed');
-        }
-    });
+    //    $(window).scroll(function() {
+    //        var scrolled = $(this).scrollTop();
+    //        //        if (scrolled >= 107) {
+    //        //            $('.up').addClass('hiden');
+    //        //
+    //        //        }
+    //        //        if (scrolled <= 107) {
+    //        //            $('.up').removeClass('hiden');
+    //        //        }
+    //        if (scrolled >= 110) {
+    //            $('.header').addClass('fixed');
+    //
+    //        }
+    //        if (scrolled <= 110) {
+    //            $('.header').removeClass('fixed');
+    //        }
+    //    });
 
 </script>

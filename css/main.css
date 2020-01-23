@@ -156,6 +156,18 @@ a:hover {
 
 /*global CSS*/
 /*Header*/
+.content {
+    margin-top: 100px !important;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
 .up {
     z-index: 10;
     display: flex;

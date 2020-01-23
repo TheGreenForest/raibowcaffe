@@ -16,7 +16,7 @@
         visibleLabel = false,
         label = $('<div class="jqcart-cart-label"><span class="jqcart-total-cnt">0</span></div>'),
         modal = '<div class="jqcart-layout"><div class="jqcart-checkout">123</div></div>',
-        orderform = '<p class="jqcart-cart-title">Контактная информация:</p><form class="jqcart-orderform"><p><label>ФИО:</label><input type="text" name="user_name"></p><p><label>Телефон:</label><input type="text" name="user_phone"></p><p><label>Email:</label><input type="text" name="user_mail"></p><p><label>Адрес:</label><input type="text" name="user_address"></p><p><label>Коментарий:</label><textarea name="user_comment"></textarea></p><p><input type="submit" value="Отправить заказ"><input type="reset" value="Вернуться к покупкам"></p></form>';
+        orderform = '<p class="jqcart-cart-title">Контактная информация:</p><form class="jqcart-orderform"><p><label>ФИО:</label><input type="text" name="user_name"></p><p><label>Телефон:</label><input type="text" name="user_phone"></p><p><label>Email:</label><input type="email" name="user_mail"></p><p><label>Адрес:</label><input type="text" name="user_address"></p><p><label>Коментарий:</label><textarea name="user_comment"></textarea></p><p><input type="submit" value="Отправить заказ"><input type="reset" value="Вернуться к покупкам"></p></form>';
     var opts = {
         buttons: '.add_item',
         cartLabel: 'body',
@@ -143,7 +143,7 @@
             var subtotal = 0,
                 cartHtml = '';
             cartData = actions.getStorage();
-            orderPreview = '<p class="jqcart-cart-title">Корзина <span class="jqcart-print-order"></span></p><div class="jqcart-table-wrapper"><div class="jqcart-manage-order"><div class="jqcart-thead"><div>ID</div><div></div><div>Наименование</div><div>Цена</div><div>Кол-во</div><div>Сумма</div><div></div></div>';
+            orderPreview = '<p class="jqcart-cart-title">Корзина </span></p><div class="jqcart-table-wrapper"><div class="jqcart-manage-order"><div class="jqcart-thead"><div>Наименование</div><div>Цена</div><div>Количество</div><div>Сумма</div><div></div></div>';
             var key, sum = 0;
             for (key in cartData) {
                 if (cartData.hasOwnProperty(key)) {
@@ -151,13 +151,11 @@
                     subtotal = Math.ceil((subtotal + sum) * 100) / 100;
 
                     orderPreview += '<div class="jqcart-tr" data-id="' + cartData[key].id + '">';
-                    orderPreview += '<div class="jqcart-small-td">' + cartData[key].id + '</div>';
-                    orderPreview += '<div class="jqcart-small-td jqcart-item-img"><img src="' + cartData[key].img + '" alt=""></div>';
                     orderPreview += '<div>' + cartData[key].title + '</div>';
                     orderPreview += '<div class="jqcart-price">' + cartData[key].price + '</div>';
                     orderPreview += '<div><span class="jqcart-incr" data-incr="-1">&#8211;</span><input type="text" class="jqcart-amount" value="' + cartData[key].count + '"><span class="jqcart-incr" data-incr="1">+</span></div>';
                     orderPreview += '<div class="jqcart-sum">' + sum + ' ' + opts.currency + '</div>';
-                    orderPreview += '<div class="jqcart-small-td"><span class="jqcart-del-item"></span></div>';
+                    orderPreview += '<div class="jqcart-small-td"><span class="jqcart-del-item"><img src="/image/logo/bin.svg" alt=""></span></div>';
                     orderPreview += '</div>';
                 }
             }

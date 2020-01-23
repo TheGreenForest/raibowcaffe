@@ -1,23 +1,24 @@
-.content{
-    padding-top: 50px;
-}
-h1{
+h1 {
     font-size: 40px;
     padding-bottom: 30px;
 }
-h2{
+
+h2 {
     font-size: 20px;
     padding: 10px 0px;
 }
-.feedback{
+
+.feedback {
     display: flex;
     flex-direction: column;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
 }
-input{
+
+input {
     padding: 5px;
     margin: 10px 0px;
     border-radius: 3px;
@@ -25,11 +26,12 @@ input{
     outline: none;
     border: 1px solid #ffcb57
 }
-.feedback p{
+
+.feedback p {
     margin-bottom: 5px;
 }
 
-textarea{
+textarea {
     border-radius: 3px;
     padding: 5px;
     outline: none;
@@ -37,9 +39,10 @@ textarea{
     min-height: 100px;
     height: 100px;
     max-height: 300px;
-     max-width: 400px;
+    max-width: 400px;
 }
-button{
+
+button {
     outline: none;
     padding: 15px;
     margin: 15px 0px;
@@ -50,6 +53,7 @@ button{
     width: 400px;
     text-transform: uppercase;
 }
-button:hover{
+
+button:hover {
     background-color: #4ab408;
 }

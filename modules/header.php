@@ -29,8 +29,9 @@
                         <div class="dropdown">
                             <a href="/menu.php" class="dropbtn">Меню</a>
                             <div class="dropdown-content">
-                                <a href="/menu.php#pizza">Пицца</a>
-                                <a href="/menu.php#sushi">Суши</a>
+                                <a href="/menu.php#pizza32">Пицца 32</a>
+                                <a href="/menu.php#pizza38">Пицца 38</a>
+                                <a href="/menu.php#sushi">Суши и роллы</a>
                                 <a href="/menu.php#hot">Горячие<br> блюда</a>
                                 <a href="/menu.php#shashlik">Шашлык</a>
                                 <a href="/menu.php#pasta">Паста</a>
