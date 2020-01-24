@@ -1068,6 +1068,18 @@
                     </div>
                 </div>
 
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/logo/breack.jpg" alt="">
+                        <h2>Калифорния со снежным крабом</h2>
+                        <p>Снежный краб, авокадо,икра тобико и майонез</p>
+                        <div class="buy flex">
+                            <p>320 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="83" data-title="Калифорния со снежным крабом" data-price="320">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <h1><a name="hot"></a>Горячие блюда</h1>
             <div class="article">
