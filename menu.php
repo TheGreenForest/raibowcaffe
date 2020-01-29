@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Кафе - "Радуга"</title>
+    <meta Author="TheGreenForest - Вадим Агибалов VK:https://vk.com/id.thegreenforest">
+    <meta name="description" content="Кафе Радуга в Ясенево">
+    <meta name="keywords" content="Кафе Радуга, кафе в Ясенево, доставка пиццы, доставка горячих блюд, доставка обедов, доставка в Зюзино, доставка в Коньково, доставка в Теплый Стан, уютное кафе, русская кухня, европейская кухня, грузинская кухня, большой выбор пиццы, аренда кафе, столик на двоих">
+    <title>"Радуга" меню</title>
+    <link rel="shortcut icon" href="/image/logo/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
@@ -59,11 +63,11 @@
                 <div class="item-wrapper col-md-4">
                     <div class="item-card ">
                         <img src="/image/menu/pizza/kurinnaya.jpg" alt="">
-                        <h2>Куринная</h2>
+                        <h2>Куриная</h2>
                         <p>Спец. соус, сыр Моцарелла, куриная грудка, помидоры</p>
                         <div class="buy flex">
                             <p>540 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart" data-id="4" data-title="Пицца 32 Куринная" data-price="540">В корзину</button>
+                            <button class="add-cart" data-id="4" data-title="Пицца 32 Куриная" data-price="540">В корзину</button>
                         </div>
                     </div>
                 </div>
@@ -308,11 +312,11 @@
                 <div class="item-wrapper col-md-4">
                     <div class="item-card ">
                         <img src="/image/menu/logo/breack.jpg" alt="">
-                        <h2>Куринный вальс</h2>
+                        <h2>Куриный вальс</h2>
                         <p>Белый соус, сыр Моцарелла, куриная грудка, шампиньоны, маслины, ветчина, брокколи, лук порей.</p>
                         <div class="buy flex">
                             <p>640 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart" data-id="24" data-title="Пицца 32 Куринный вальс" data-price="640">В корзину</button>
+                            <button class="add-cart" data-id="24" data-title="Пицца 32 Куриный вальс" data-price="640">В корзину</button>
                         </div>
                     </div>
                 </div>
@@ -442,11 +446,11 @@
                 <div class="item-wrapper col-md-4">
                     <div class="item-card ">
                         <img src="/image/menu/pizza/kurinnaya.jpg" alt="">
-                        <h2>Куринная</h2>
+                        <h2>Куриная</h2>
                         <p>Спец. соус, сыр Моцарелла, куриная грудка, помидоры</p>
                         <div class="buy flex">
                             <p>640 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart" data-id="35" data-title="Пицца 38 Куринная" data-price="640">В корзину</button>
+                            <button class="add-cart" data-id="35" data-title="Пицца 38 Куриная" data-price="640">В корзину</button>
                         </div>
                     </div>
                 </div>
@@ -691,11 +695,11 @@
                 <div class="item-wrapper col-md-4">
                     <div class="item-card ">
                         <img src="/image/menu/logo/breack.jpg" alt="">
-                        <h2>Куринный вальс</h2>
+                        <h2>Куриный вальс</h2>
                         <p>Белый соус, сыр Моцарелла, куриная грудка, шампиньоны, маслины, ветчина, брокколи, лук порей.</p>
                         <div class="buy flex">
                             <p>640 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart" data-id="55" data-title="Пицца 38 Куринный вальс" data-price="640">В корзину</button>
+                            <button class="add-cart" data-id="55" data-title="Пицца 38 Куриный вальс" data-price="640">В корзину</button>
                         </div>
                     </div>
                 </div>
@@ -1451,10 +1455,65 @@
                 <div class="item-wrapper col-md-4">
                     <div class="item-card ">
                         <img src="/image/menu/hot/hinkali.jpg" alt="">
-                        <h2>Хинкали</h2>
+                        <h2>Хинкали(Свинина+говядина)</h2>
                         <div class="buy flex">
                             <p>250 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart" data-id="115" data-title="Хинкали" data-price="250">В корзину</button>
+                            <button class="add-cart" data-id="1115" data-title="Хинкали(Свинина+говядина)" data-price="250">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/hot/hinkali.jpg" alt="">
+                        <h2>Хинкали обжаренные(Свинина+говядина)</h2>
+                        <div class="buy flex">
+                            <p>260 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="1116" data-title="Хинкали обжаренные(Свинина+говядина)" data-price="260">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/hot/hinkali.jpg" alt="">
+                        <h2>Хинкали(Баранина)</h2>
+                        <div class="buy flex">
+                            <p>270 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="1117" data-title="Хинкали(Баранина)" data-price="270">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/hot/hinkali.jpg" alt="">
+                        <h2>Хинкали обжаренные(Баранина)</h2>
+                        <div class="buy flex">
+                            <p>280 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="1118" data-title="Хинкали обжаренные(Баранина)" data-price="280">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/hot/hinkali.jpg" alt="">
+                        <h2>Хинкали с грибами</h2>
+                        <div class="buy flex">
+                            <p>260 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="1119" data-title="Хинкали с грибами" data-price="260">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/hot/hinkali.jpg" alt="">
+                        <h2>Хинкали обжаренные с грибами</h2>
+                        <div class="buy flex">
+                            <p>270 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="1120" data-title="Хинкали обжаренные с грибами" data-price="270">В корзину</button>
                         </div>
                     </div>
                 </div>
@@ -1517,10 +1576,21 @@
                 <div class="item-wrapper col-md-4">
                     <div class="item-card ">
                         <img src="/image/menu/hot/julien.JPG" alt="">
-                        <h2>Жульен в ассортименте</h2>
+                        <h2>Жульен с курицей</h2>
                         <div class="buy flex">
                             <p>290 <span style="font-size: 25px;">₽</span></p>
-                            <button class="add-cart" data-id="121" data-title="Жульен в ассортименте" data-price="290">В корзину</button>
+                            <button class="add-cart" data-id="1121" data-title="Жульен с курицей" data-price="290">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/hot/julien.JPG" alt="">
+                        <h2>Жульен с грибами</h2>
+                        <div class="buy flex">
+                            <p>290 <span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="1122" data-title="Жульен с грибами" data-price="290">В корзину</button>
                         </div>
                     </div>
                 </div>
@@ -2102,17 +2172,978 @@
             <h1><a name="cold"></a>Холодные блюда</h1>
             <div class="article">
 
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Синьор Помидор</h2>
+                        <p>Помидор фаршированый, сыр, чеснок, майонез, зелень.</p>
+                        <div class="buy flex">
+                            <p>280<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="171" data-title="Синьор Помидор" data-price="280
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Ореховое ассорти</h2>
+                        <p>Шпинат, лобио красный и зеленый, грецкие орехи, специи, баклажаны пикантные, баклажаны с орехами.</p>
+                        <div class="buy flex">
+                            <p>620<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="175" data-title="Ореховое ассорти" data-price="620
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/cold/po_russki.JPG" alt="">
+                        <h2>Закусочка по-русски</h2>
+                        <p>Селедка, картофель отварной, капуста соленая, грибы маринованные, лук репчатый, масло подсолнечное.</p>
+                        <div class="buy flex">
+                            <p>310<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="173" data-title="Закусочка по-русски" data-price="310
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Баклажаны деликатесные с орехами</h2>
+                        <div class="buy flex">
+                            <p>330<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="172" data-title="Баклажаны деликатесные с орехами" data-price="330
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Язык говяжий вареный с хреном</h2>
+                        <div class="buy flex">
+                            <p>330<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="174" data-title="Язык говяжий вареный с хреном" data-price="330
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Аджабсандали</h2>
+                        <div class="buy flex">
+                            <p>380<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="176" data-title="Аджабсандали" data-price="380
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Баклажаны пикантные</h2>
+                        <div class="buy flex">
+                            <p>340<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="177" data-title="Баклажаны пикантные" data-price="340
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Баклажаны с сыром</h2>
+                        <div class="buy flex">
+                            <p>450<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="178" data-title="Баклажаны с сыром" data-price="450
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Букет из свежих овощей</h2>
+                        <div class="buy flex">
+                            <p>280<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="179" data-title="Букет из свежих овощей" data-price="280
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Лобио зеленое с орехами</h2>
+                        <div class="buy flex">
+                            <p>380<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="180" data-title="Лобио зеленое с орехами" data-price="380
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Лобио красное по-имеритински</h2>
+                        <div class="buy flex">
+                            <p>390<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="181" data-title="Лобио красное по-имеритински" data-price="390
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Ореховые корзинки</h2>
+                        <div class="buy flex">
+                            <p>490<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="182" data-title="Ореховые корзинки" data-price="490
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/cold/solenya.jpg" alt="">
+                        <h2>Соленья</h2>
+                        <div class="buy flex">
+                            <p>280<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="183" data-title="Соленья" data-price="280
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Сациви</h2>
+                        <div class="buy flex">
+                            <p>390<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="184" data-title="Сациви" data-price="390
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <h1><a name="salati"></a>Салаты</h1>
             <div class="article">
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/salat/cezer.jpg" alt="">
+                        <h2>Цезарь</h2>
+                        <p>Салатный лист, куриное филе, гренки, соус, сыр.</p>
+                        <div class="buy flex">
+                            <p>370<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="185" data-title="Цезарь" data-price="370
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Каприз</h2>
+                        <p>Салатный лист, помидоры, огурцы, куриное филе, ананасы, кукуруза, соус.</p>
+                        <div class="buy flex">
+                            <p>260<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="186" data-title="Каприз" data-price="260
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/salat/grech.JPG" alt="">
+                        <h2>Греческий</h2>
+                        <p>Огурцы, помидоры, перец болгарский, редиска, брынза, оливковое масло.</p>
+                        <div class="buy flex">
+                            <p>280<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="187" data-title="Греческий" data-price="280
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/salat/myasnoi_baron.JPG" alt="">
+                        <h2>Мясной барон</h2>
+                        <p>Язык говяжий, картофель, огурцы, помидоры, сыр, яйцо, майонез.</p>
+                        <div class="buy flex">
+                            <p>290<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="188" data-title="Мясной барон" data-price="290
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Салат с кальмарами</h2>
+                        <p>Кальмары, рис, кукуруза, яйцо, морковь, майонез.</p>
+                        <div class="buy flex">
+                            <p>280<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="189" data-title="Салат с кальмарами" data-price="280
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/salat/po_gruzinski(ovocsh).jpg" alt="">
+                        <h2>По-грузински (Овощной)</h2>
+                        <p>Огурцы, помидоры, лук репчатый, зелень.</p>
+                        <div class="buy flex">
+                            <p>290<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="190" data-title="По-грузински (Овощной)" data-price="290
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Салат с тунцом</h2>
+                        <p>Салатный лист, тунец, яйцо, майонез.</p>
+                        <div class="buy flex">
+                            <p>280<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="191" data-title="Салат с тунцом" data-price="280
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Столичный</h2>
+                        <p>Куриное филе, овощи, зелень, майонез.</p>
+                        <div class="buy flex">
+                            <p>240<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="192" data-title="Столичный" data-price="240
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/salat/cezar_krivetki.JPG" alt="">
+                        <h2>Цезарь с креветками</h2>
+                        <p>Салатный лист, креветки, помидоры, соус "Цезарь", гренки, сыр, семга слабосоленая.</p>
+                        <div class="buy flex">
+                            <p>450<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="193" data-title="Цезарь с креветками" data-price="450
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Визави</h2>
+                        <p>Язык говяжий, шампиньоны обжар., спец соус.</p>
+                        <div class="buy flex">
+                            <p>380<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="194" data-title="Визави" data-price="380
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Оливье</h2>
+                        <p></p>
+                        <div class="buy flex">
+                            <p>240<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="195" data-title="Оливье" data-price="240
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Мясной от кафе "Радуга"</h2>
+                        <p></p>
+                        <div class="buy flex">
+                            <p>360<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="196" data-title="Мясной от кафе Радуга" data-price="360
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <h1><a name="vipechka"></a>Выпечка</h1>
             <div class="article">
 
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/vipechka/konvert_sir.jpg" alt="">
+                        <h2>Хачапури слоеный конвертик</h2>
+                        <div class="buy flex">
+                            <p>150<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="197" data-title="Хачапури слоеный конвертик" data-price="150
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/vipechka/hp_imeretinski.jpg" alt="">
+                        <h2>Хачапури по-имеретински</h2>
+                        <div class="buy flex">
+                            <p>370<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="198" data-title="Хачапури по-имеретински" data-price="370
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/vipechka/hp_adjarski.jpg" alt="">
+                        <h2>Хачапури по-аджарски(среднаяя)</h2>
+                        <div class="buy flex">
+                            <p>310<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="199" data-title="Хачапури по-аджарски(среднаяя)" data-price="310
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/vipechka/hp_adjarski.jpg" alt="">
+                        <h2>Хачапури по-аджарски(большая)</h2>
+                        <div class="buy flex">
+                            <p>390<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="200" data-title="Хачапури по-аджарски(большая)" data-price="390
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/vipechka/hp_megrelski.jpg" alt="">
+                        <h2>Хачапури по мегрельски(средняя)</h2>
+                        <div class="buy flex">
+                            <p>400<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="201" data-title="Хачапури по мегрельски(средняя)" data-price="400
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card ">
+                        <img src="/image/menu/vipechka/hp_megrelski.jpg" alt="">
+                        <h2>Хачапури по мегрельски(большая)</h2>
+                        <div class="buy flex">
+                            <p>680<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="202" data-title="Хачапури по мегрельски(большая)" data-price="680
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/vipechka/hp_tbliski.jpg" alt="">
+                        <h2>Хачапури по-тбилисски</h2>
+                        <div class="buy flex">
+                            <p>370<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="203" data-title="Хачапури по-тбилисски" data-price="370
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Хачапури по гурийски</h2>
+                        <div class="buy flex">
+                            <p>290<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="204" data-title="Хачапури по гурийски" data-price="290
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/vipechka/osetin.jpg" alt="">
+                        <h2>Осетинский пирог с мясом</h2>
+                        <div class="buy flex">
+                            <p>400<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="205" data-title="Осетинский пирог с мясом" data-price="400
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/vipechka/osetin.jpg" alt="">
+                        <h2>Осетинский пирог с лобио</h2>
+                        <div class="buy flex">
+                            <p>290<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="206" data-title="Осетинский пирог с лобио" data-price="290
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/vipechka/osetin.jpg" alt="">
+                        <h2>Осетинский пирог с сыром и шпинатом</h2>
+                        <div class="buy flex">
+                            <p>420<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="207" data-title="Осетинский пирог с сыром и шпинатом" data-price="420
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/vipechka/osetin.jpg" alt="">
+                        <h2>Осетинский пирог с сыром и картошкой</h2>
+                        <div class="buy flex">
+                            <p>350<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="208" data-title="Осетинский пирог с сыром и картошкой" data-price="350
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/vipechka/sir_palki.jpg" alt="">
+                        <h2>Сырные палочки</h2>
+                        <div class="buy flex">
+                            <p>250<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="209" data-title="Сырные палочки" data-price="250
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Чесночные гренки с сыром Моцарелла</h2>
+                        <div class="buy flex">
+                            <p>210<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="210" data-title="Чесночные гренки с сыром Моцарелла" data-price="210
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/vipechka/grenki.JPG" alt="">
+                        <h2>Чесночные гренки из черного хлеба</h2>
+                        <div class="buy flex">
+                            <p>130<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="211" data-title="Чесночные гренки из черного хлеба" data-price="130
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Чебурек с сыром</h2>
+                        <div class="buy flex">
+                            <p>80<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="212" data-title="Чебурек с сыром" data-price="80
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Чебурек свинина-говядина</h2>
+                        <div class="buy flex">
+                            <p>80<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="213" data-title="Чебурек свинина-говядина" data-price="80
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Самса с курицей</h2>
+                        <div class="buy flex">
+                            <p>90<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="214" data-title="Самса с курицей" data-price="90
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Самса с говядиной</h2>
+                        <div class="buy flex">
+                            <p>90<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="215" data-title="Самса с говядиной" data-price="90
+                            ">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Самса с бараниной</h2>
+                        <div class="buy flex">
+                            <p>100<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="216" data-title="Самса с бараниной" data-price="100">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/vipechka/shaurma.JPG" alt="">
+                        <h2>Шаурма с курицей</h2>
+                        <div class="buy flex">
+                            <p>180<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="217" data-title="Шаурма с курицей" data-price="180">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/vipechka/shaurma.JPG" alt="">
+                        <h2>Шаурма вегетарианская</h2>
+                        <div class="buy flex">
+                            <p>160<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="218" data-title="Шаурма вегетарианская" data-price="160">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Лепешка</h2>
+                        <div class="buy flex">
+                            <p>60<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="219" data-title="Лепешка" data-price="60">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <h1><a name="dessert"></a>Десерты</h1>
             <div class="article">
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Три вкуса от кафе "Радуга"</h2>
+                        <div class="buy flex">
+                            <p>230<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="220" data-title="Три вкуса от кафе Радуга" data-price="230">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/desert/napoleon.jpg" alt="">
+                        <h2>Наполеон</h2>
+                        <div class="buy flex">
+                            <p>160<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="221" data-title="Наполеон" data-price="160">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Тирамису</h2>
+                        <div class="buy flex">
+                            <p>230<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="222" data-title="Тирамису" data-price="230">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Клубничный</h2>
+                        <div class="buy flex">
+                            <p>230<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="223" data-title="Клубничный" data-price="230">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>3 шоколада</h2>
+                        <div class="buy flex">
+                            <p>250<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="224" data-title="3 шоколада" data-price="250">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Чиз-кейк Карамельный</h2>
+                        <div class="buy flex">
+                            <p>250<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="225" data-title="Чиз-кейк Карамельный" data-price="250">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Чиз-кейк Нью-Йорк</h2>
+                        <div class="buy flex">
+                            <p>250<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="226" data-title="Чиз-кейк Нью-Йорк" data-price="250">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <h1><a name="sous"></a>Соусы</h1>
+            <div class="article">
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Соус Наршараб</h2>
+                        <div class="buy flex">
+                            <p>70<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="227" data-title="Соус Наршараб" data-price="70">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Соус Сацебели</h2>
+                        <div class="buy flex">
+                            <p>70<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="228" data-title="Соус Сацебели" data-price="70">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Соус Ткемали</h2>
+                        <div class="buy flex">
+                            <p>70<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="229" data-title="Соус Ткемали" data-price="70">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Соус Сметанно-чесночный</h2>
+                        <div class="buy flex">
+                            <p>70<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="230" data-title="Соус Сметанно-чесночный" data-price="70">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Соус Тар-тар</h2>
+                        <div class="buy flex">
+                            <p>70<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="231" data-title="Соус Тар-тар" data-price="70">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Соус Сырный</h2>
+                        <div class="buy flex">
+                            <p>45<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="232" data-title="Соус Сырный" data-price="45">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <h1><a name="napitki"></a>Напитки</h1>
+            <div class="article">
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Сок 1л.</h2>
+                        <div class="buy flex">
+                            <p>130<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="233" data-title="Сок 1л." data-price="130">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Пепси 0,6л.</h2>
+                        <div class="buy flex">
+                            <p>100<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="234" data-title="Пепси 0,6л." data-price="100">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Пепси-лайт 0,6л.</h2>
+                        <div class="buy flex">
+                            <p>100<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="235" data-title="Пепси-лайт 0,6л." data-price="100">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Миринда 0,6л.</h2>
+                        <div class="buy flex">
+                            <p>100<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="236" data-title="Миринда 0,6л." data-price="100">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>7-UP 0,6л.</h2>
+                        <div class="buy flex">
+                            <p>100<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="237" data-title="7-UP 0,6л." data-price="100">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Irn-Bru 0,6л.</h2>
+                        <div class="buy flex">
+                            <p>100<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="238" data-title="Irn-Bru 0,6л." data-price="100">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Mountain Dew 0,6л.</h2>
+                        <div class="buy flex">
+                            <p>100<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="239" data-title="Mountain Dew 0,6л." data-price="100">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Аква минерале 0,6л.</h2>
+                        <div class="buy flex">
+                            <p>100<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="240" data-title="Аква минерале 0,6л." data-price="100">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Пепси 1,25л.</h2>
+                        <div class="buy flex">
+                            <p>130<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="241" data-title="Пепси 1,25л." data-price="130">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Пепси-лайт 1,25л.</h2>
+                        <div class="buy flex">
+                            <p>130<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="242" data-title="Пепси-лайт 1,25л." data-price="130">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Пепси 2л.</h2>
+                        <div class="buy flex">
+                            <p>150<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="243" data-title="Пепси 2л." data-price="150">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Пепси-лайт 2л.</h2>
+                        <div class="buy flex">
+                            <p>150<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="244" data-title="Пепси-лайт 2л." data-price="150">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Миринда 2л.</h2>
+                        <div class="buy flex">
+                            <p>150<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="245" data-title="Миринда 2л." data-price="150">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>7-UP 2л.</h2>
+                        <div class="buy flex">
+                            <p>150<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="246" data-title="7-UP 2л." data-price="150">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Irn-Bru 2л.</h2>
+                        <div class="buy flex">
+                            <p>150<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="247" data-title="Irn-Bru 2л." data-price="150">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Mountain Dew 2л.</h2>
+                        <div class="buy flex">
+                            <p>150<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="248" data-title="Mountain Dew 2л." data-price="150">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Аква минерале 2л.</h2>
+                        <div class="buy flex">
+                            <p>140<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="249" data-title="Аква минерале 2л." data-price="140">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Квас Очаковский 2л.</h2>
+                        <div class="buy flex">
+                            <p>140<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="250" data-title="Квас Очаковский 2л." data-price="140">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrapper col-md-4">
+                    <div class="item-card">
+                        <img src="/image/menu/logo/breack.jpg" alt="">
+                        <h2>Холодный чай 1л.</h2>
+                        <div class="buy flex">
+                            <p>140<span style="font-size: 25px;">₽</span></p>
+                            <button class="add-cart" data-id="251" data-title="Холодный чай 1л." data-price="140">В корзину</button>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>

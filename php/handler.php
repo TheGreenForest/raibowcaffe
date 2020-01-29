@@ -5,16 +5,10 @@ parse_str($_POST['userdata'], $userdata);
 $orderlist - массив со списком заказа
 $userdata - данные заказчика
 */
-
-// При желании, можно посмотреть полученные данные, записав их в файл:
-// file_put_contents('cart_data_log.txt', var_export($orderlist, 1) . "\r\n");
-// file_put_contents('cart_data_log.txt', var_export($userdata, 1), FILE_APPEND);
-
-
 // Заголовок письма
 $subject = 'Заказ от '.date('d.m.Y').'г.';
 // ваш Email
-$admin_mail = 'tgfagibalov@gmail.com';
+$admin_mail = 'examle@mail.ru';
 // Email заказчика (как fallback - ваш же Email)
 $to = !empty($userdata['user_mail']) ? $userdata['user_mail'] : $admin_mail;
 
@@ -59,6 +53,7 @@ $body = '
 		<li><b>Email:</b> '.$userdata['user_mail'].'</li>
 		<li><b>Адрес:</b> '.$userdata['user_address'].'</li>
 		<li><b>Комментарий:</b> '.$userdata['user_comment'].'</li>
+		<li><b>Оплата:</b> '.$userdata['oplata'].'</li>
 	</ul>
 	<p>Информация о заказае:</p>
   '.$tbl.'
@@ -81,11 +76,4 @@ $response = [
 	'errors' => !$send_ok,
 	'message' => $send_ok ? 'Заказ принят в обработку!' : 'Хьюстон! У нас проблемы!'
 ];
-// ! Для версий PHP < 5.4 использовать традиционный синтаксис инициализации массивов:
-/*
-$response = array (
-	'errors' => !$send_ok,
-	'message' => $send_ok ? 'Заказ принят в обработку!' : 'Хьюстон! У нас проблемы!'
-);
-*/
 exit( json_encode($response) );

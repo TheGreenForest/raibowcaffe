@@ -1,0 +1,1 @@
+В файле php/handler.php в 11 строке "$admin_mail = 'examle@mail.ru';" Заменить Email на ваш

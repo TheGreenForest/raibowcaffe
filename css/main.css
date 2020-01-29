@@ -1,4 +1,8 @@
 /*Resset.css*/
+* {
+    outline: none;
+}
+
 html,
 body,
 div,
@@ -38,7 +42,7 @@ sub,
 sup,
 tt,
 var,
-b,
+
 u,
 i,
 center,
@@ -146,6 +150,10 @@ a:hover {
     display: flex;
 }
 
+.fwrap {
+    flex-wrap: wrap;
+}
+
 .s-between {
     justify-content: space-between;
 }
@@ -157,7 +165,7 @@ a:hover {
 /*global CSS*/
 /*Header*/
 .content {
-    margin-top: 100px !important;
+    margin-top: 100px;
 
 }
 
@@ -308,6 +316,8 @@ a:hover {
     font-size: 20px;
 }
 
+
+
 .open-cart {
     display: flex;
     justify-content: center;
@@ -401,6 +411,16 @@ a:hover {
     background-color: #000;
 }
 
+.header-phone-mobile {
+    display: none;
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    padding: 4px;
+}
+
 /*Header*/
 /*footer*/
 
@@ -434,3 +454,35 @@ a:hover {
 }
 
 /*footer*/
+/*Media*/
+
+@media (max-width: 991px) {
+
+    .logo-text-main {
+        display: none;
+    }
+
+    .logo-text-discription {
+        display: none;
+    }
+
+    .delivery {
+        display: none;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .header-phone-mobile {
+        display: flex;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .delivery {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {}

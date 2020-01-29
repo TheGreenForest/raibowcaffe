@@ -18,13 +18,11 @@
             </a>
 
             <div class="delivery">
-                <p>При заказе от <span style="font-size:25px">500</span> рублей <br> доставка бесплатно</p>
+                <p>Заказ от <span style="font-size:25px">500</span> рублей</p>
             </div>
             <div class="nav">
                 <ul type="none" class="nav-menu">
                     <li><a href="/index.php">Главная</a></li>
-                    <li><a href="/about.php">О нас</a></li>
-                    <li><a href="/contact.php">Контакты</a></li>
                     <li style="padding-right:0;">
                         <div class="dropdown">
                             <a href="/menu.php" class="dropbtn">Меню</a>
@@ -41,9 +39,13 @@
                                 <a href="/menu.php#salati">Салаты</a>
                                 <a href="/menu.php#vipechka">Выпечка</a>
                                 <a href="/menu.php#dessert">Десерты</a>
+                                <a href="/menu.php#sous">Соусы</a>
+                                <a href="/menu.php#napitki">Напитки</a>
                             </div>
                         </div>
                     </li>
+                    <li><a href="/about.php" style="white-space: nowrap">О нас</a></li>
+                    <li><a href="/contact.php">Контакты</a></li>
                 </ul>
             </div>
             <?php
@@ -59,5 +61,9 @@
                 <p>+7 (966) 099-48-48</p>
             </div>
         </div>
+
+    </div>
+    <div class="header-phone-mobile">
+        <p>+7 (495) 429-88-88 или +7 (966) 099-48-48</p>
     </div>
 </div>

@@ -209,6 +209,10 @@
     padding-top: 10px;
 }
 
+div > label {
+    cursor: pointer;
+}
+
 .jqcart-orderform input[type=text],
 .jqcart-orderform input[type=email],
 .jqcart-orderform textarea {

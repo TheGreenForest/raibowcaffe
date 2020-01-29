@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Кафе - "Радуга"</title>
+    <meta Author="TheGreenForest - Вадим Агибалов VK:https://vk.com/id.thegreenforest">
+    <meta name="description" content="Кафе Радуга в Ясенево">
+    <meta name="keywords" content="Кафе Радуга, кафе в Ясенево, доставка пиццы, доставка горячих блюд, доставка обедов, доставка в Зюзино, доставка в Коньково, доставка в Теплый Стан, уютное кафе, русская кухня, европейская кухня, грузинская кухня, большой выбор пиццы, аренда кафе, столик на двоих">
+    <title>"Радуга" о нас</title>
+    <link rel="shortcut icon" href="/image/logo/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
